@@ -35,6 +35,6 @@ def ingest_pdf(docs):
         pre_delete_collection=True
     )
 
-    print("Documentos inseridos no PGVector com sucesso.")
+    print("Documentos processados com sucesso.")
 
 ingest_pdf(docs)
